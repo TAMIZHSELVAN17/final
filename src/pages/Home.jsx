@@ -375,7 +375,7 @@ const PopularCategories = () => {
           variants={scaleFade}
           initial="initial"
           animate="animate"
-          className="text-3xl sm:text-4xl md:text-5xl font-bold text-blue-700 mb-8 md:mb-12 absolute top-16 right-[500px] "
+          className="text-3xl sm:text-4xl md:text-5xl font-bold text-blue-700 mb-8 md:mb-12 absolute top-16 right-[400px] "
         >
           Popular Categories
         </motion.h2>
@@ -709,12 +709,6 @@ const Home = () => {
 
 
 
-      <button
-        onClick={() => setShowLogin(true)}
-        className="fixed bottom-8 right-8 bg-blue-700 hover:bg-blue-800 text-white font-bold py-2 px-4 rounded-full shadow-lg z-50"
-      >
-        Login
-      </button>
 
       {showLogin && (
         <Login
